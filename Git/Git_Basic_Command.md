@@ -24,15 +24,16 @@ When you run the command, your current directory becomes a Git repository, allow
     ![alt text](images/git_status.png)
 
     After commit
+   
     ![alt text](images/git_status2.png)
-2. Shows untracked files
+3. Shows untracked files
     
     : New files that Git isn't tracking yet
     
-3. shows staged changes
+4. shows staged changes
 
     :  Files added with  git add that are ready to be committed
-4. Shows unstaged changes
+5. Shows unstaged changes
 
     : Files that have been modified but not yet staged
 
