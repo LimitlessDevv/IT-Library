@@ -19,7 +19,15 @@ When you run the command, your current directory becomes a Git repository, allow
 
     : Tells you which branch you are on and if it's ahead/behind the remote branch
 
-    Git compares your local branch with the remote branch at the commit level, not based on uncommitted changes in your working directory.
+   It compares three things: the local working directory, the staging area (index), and the last commit (HEAD).
+    
+    In other words, it shows:
+    
+    - Unstaged changes (differences between the working directory and the staging area)
+    
+    - Staged changes (differences between the staging area and HEAD)
+    
+    - Branch synchronization status (differences between the local branch and the remote branch)
    
     ![alt text](images/git_status.png)
 
