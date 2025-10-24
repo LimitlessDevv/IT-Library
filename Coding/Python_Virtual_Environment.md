@@ -68,6 +68,9 @@ To allow other developers to set up the exact same environment, you should save 
 
 ```
 pip freeze > requirements.txt
+
+# when install packages
+pip install -r requirements.txt
 ```
 - `pip freeze`: Shows a list of all packages installed in the currently active venv.
 - `> requirements.txt` : Saves that list to a file named requirements.txt.
